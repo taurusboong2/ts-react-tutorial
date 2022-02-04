@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './Counter';
 import Greetings from './Greetings';
 
 const App: React.FC = () => {
@@ -9,6 +10,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Greetings name="Hello" onClick={onClick} />
+      <Counter />
     </div>
   );
 };
